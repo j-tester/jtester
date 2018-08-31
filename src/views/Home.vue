@@ -9,11 +9,10 @@
           <h2 class="subtitle">
             Easily diff the JSON in your API's
           </h2>
-          <a
-            href="/diff"
+          <router-link
+            to="/diff"
             class="button is-info is-medium"
-            disabled
-          >Get Started Online (coming soon)</a>
+          >Get Started Online</router-link>
         </div>
       </div>
     </section>
@@ -35,9 +34,10 @@
                   <a href="https://github.com/j-tester/json-diff-cli" class="button is-success is-medium">Github</a>
                 </p>
                 <p class="control">
-                  <a href="/diff" class="button is-info is-medium" disabled>
-                    Try Online (coming soon)
-                  </a>
+                  <router-link
+                    to="/diff"
+                    class="button is-info is-medium"
+                  >Try Online</router-link>
                 </p>
               </div>
             </div>

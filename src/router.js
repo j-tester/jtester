@@ -13,5 +13,10 @@ export default new Router({
       name: 'home',
       component: Home,
     },
+    {
+      path: '/diff',
+      name: 'diff',
+      component: () => import(/* webpackChunkName: "about" */ './views/Diff.vue'),
+    },
   ],
 });

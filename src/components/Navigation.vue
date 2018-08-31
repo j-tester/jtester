@@ -22,6 +22,12 @@
             @click.native="closeMenu"
             exact
           >Home</router-link>
+          <router-link
+            to="/diff"
+            class="navbar-item"
+            active-class="is-active"
+            @click.native="closeMenu"
+          >Diff</router-link>
         </div>
       </div>
     </div>
