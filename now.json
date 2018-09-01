@@ -1,0 +1,19 @@
+{
+  "name": "jtester",
+  "alias": "www.jtester.com",
+  "type": "static",
+  "static": {
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "engines": {
+    "node": "^8.0.0"
+  },
+  "env": {
+    "BASE_URL": "https://www.jtester.com"
+  }
+}
