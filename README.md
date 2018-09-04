@@ -1,26 +1,22 @@
-# jtester
+<h1 align="center">JTester</h1>
 
-## Project setup
+<p align="center">
+  <a href="https://travis-ci.org/j-tester/jtester" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/travis/j-tester/jtester.svg" alt="Build Status"></a>
+</p>
+
+An online extension of json-diff-cli to help diff and lint your JSON.
+
+## Contribute
+1. Install the dependencies
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
+2. Run the server
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
+3. Test the code
 ```
 npm run test:unit
 ```
+4. Make a pull request!
